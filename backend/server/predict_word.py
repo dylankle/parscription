@@ -17,7 +17,7 @@ def get_word(file):
     file = file.resize((128, 64))  # Resize to 128x64 (width x height)
     file = np.array(file) / 255.0  # Normalize pixel values to [0, 1]
     file = np.expand_dims(file, axis=-1)  # Add a channel dimension (for grayscale)
-    file = np.expand_dims(file, axis=0)
+    file = np.expand_dims(file, axis=0)  # Fix pixel channels back to scaled state
 
     prediction = model.predict(file)
     predicted_index = np.argmax(prediction)
