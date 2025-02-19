@@ -9927,7 +9927,7 @@ var Layers = createLucideIcon("Layers", [
   ["path", { d: "m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65", key: "ep9fru" }]
 ]);
 
-// node_modules/lucide-react/dist/esm/icons/layout-dashboard.js
+// node_modules/lucide-react/dist/esm/icons/layout-client.js
 var LayoutDashboard = createLucideIcon("LayoutDashboard", [
   ["rect", { width: "7", height: "9", x: "3", y: "3", rx: "1", key: "10lvy0" }],
   ["rect", { width: "7", height: "5", x: "14", y: "3", rx: "1", key: "16une8" }],
@@ -28974,7 +28974,7 @@ lucide-react/dist/esm/icons/layers.js:
    * See the LICENSE file in the root directory of this source tree.
    *)
 
-lucide-react/dist/esm/icons/layout-dashboard.js:
+lucide-react/dist/esm/icons/layout-client.js:
   (**
    * @license lucide-react v0.453.0 - ISC
    *
