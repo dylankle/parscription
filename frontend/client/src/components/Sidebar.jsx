@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const SIDEBAR_ITEMS = [
     {name: "Homepage", icon: House, color: "#6366f1", href: "/"},
-    {name: "Dashboard", icon: Activity, color: "#ec4899", href: "/dashboard"}
+    {name: "Dashboard", icon: Activity, color: "#ec4899", href: "/client"}
 ];
 
 const Sidebar = () => {
