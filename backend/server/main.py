@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from predict_word.py import get_word
+from predict_word import get_word
 
 app = Flask(__name__)
 cors = CORS(app, origins='*')

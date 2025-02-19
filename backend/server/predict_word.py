@@ -25,8 +25,7 @@ def get_word(file):
 
     return predicted_word
 
-
-print(get_word('IMG_3127 3 copy.png'))
+# print(get_word('IMG_3127 3 copy.png'))
 
 # # process image to be grayscale and properly sized
 # def preprocess_image(image_path):
